@@ -6,7 +6,7 @@
 /*   By: hwong <hwong@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/25 13:16:12 by hwong             #+#    #+#             */
-/*   Updated: 2022/08/25 16:01:12 by hwong            ###   ########.fr       */
+/*   Updated: 2022/08/30 11:18:38 by hwong            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,3 +19,11 @@ int	ft_strlen(char *str)
 		count++;
 	return (count);
 }
+
+/*
+#include <stdio.h>
+int main (void)
+{
+	printf("%i", ft_strlen("854dsjfksdlk"));
+}
+*/

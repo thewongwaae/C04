@@ -6,7 +6,7 @@
 /*   By: hwong <hwong@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/28 16:44:23 by hwong             #+#    #+#             */
-/*   Updated: 2022/08/28 18:00:10 by hwong            ###   ########.fr       */
+/*   Updated: 2022/08/30 11:19:25 by hwong            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,4 +35,14 @@ int	ft_atoi(char *str)
 		}
 		return (output * sign);
 	}
+	return (0);
 }
+
+/*
+#include <stdio.h>
+int main(void)
+{
+	char *s = "   ---+--+01234506789ab567";
+	printf("%d", ft_atoi(s));
+}
+*/

@@ -6,15 +6,27 @@
 /*   By: hwong <hwong@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/25 13:17:12 by hwong             #+#    #+#             */
-/*   Updated: 2022/08/28 16:43:58 by hwong            ###   ########.fr       */
+/*   Updated: 2022/08/30 11:18:46 by hwong            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <unistd.h>
+
 void	ft_putstr(char *str)
 {
-	while (*str)
+	int	i;
+
+	i = 0;
+	while (str[i])
 	{
-		write(1, &str, 1);
-		str++;
+		write(1, &str[i], 1);
+		i++;
 	}
 }
+
+/*
+int main()
+{
+	ft_putstr("Hello World!");
+}
+*/
